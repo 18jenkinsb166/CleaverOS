@@ -1,0 +1,54 @@
+{
+  "files": {
+    "help.py": [
+      {
+        "id": "ad2bf0ea-cfed-495c-9adf-55c8db790bb5",
+        "line": 474,
+        "version": 0,
+        "index": 17868
+      },
+      {
+        "id": "3fcd90f2-2da6-4ef5-9907-c5745bfac680",
+        "line": 475,
+        "version": 0,
+        "index": 17903
+      },
+      {
+        "id": "5fe7b6e1-cfcf-4ec4-bce6-db61d6415cc5",
+        "line": 476,
+        "version": 0,
+        "index": 17941
+      },
+      {
+        "id": "ceb59357-31ed-47aa-a248-f25999875375",
+        "line": 477,
+        "version": 0,
+        "index": 17972
+      },
+      {
+        "id": "38147092-7c85-4f75-bb42-b0c883e90c59",
+        "line": 478,
+        "version": 0,
+        "index": 18009
+      },
+      {
+        "id": "df5d7750-3c13-441e-98c7-608a5f8e7673",
+        "line": 479,
+        "version": 0,
+        "index": 18047
+      },
+      {
+        "id": "638f8ca3-44a5-4e49-80cd-efb98ed370db",
+        "line": 480,
+        "version": 0,
+        "index": 18078
+      },
+      {
+        "id": "433ed183-4ff6-4724-b3f3-f812a0998798",
+        "line": 481,
+        "version": 0,
+        "index": 18115
+      }
+    ]
+  }
+}
