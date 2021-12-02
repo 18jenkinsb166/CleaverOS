@@ -1,5 +1,5 @@
 import time
-#1.0.2
+#1.0.3
 def Aliens():
     print("The Aliens are coming!!")
     time.sleep(1)
@@ -21,7 +21,10 @@ def Aliens():
             print("You die a sad and lonely person after your friends desert you")
             time.sleep(3)
     else:
-        choice3 = int(input("What will you fight with?"" 1.Nukes ""2.Bio-chemical weapons ""3.sticks ""4.USA armed forces"" 5. China armed forces"))
+        print("What will you do?")
+        time.sleep(0.5)
+        print("1.Nukes   2.Bio-chemical weapons  3.Sticks  4.USA Armed forces  5.Chinese armed forces")
+        choice3 = int(input(""))
         if choice3 == 1:
             print("Well done idiot, everyone dies from mass earthwide nuclear fallout!")
             time.sleep(3)

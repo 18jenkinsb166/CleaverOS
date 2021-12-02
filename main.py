@@ -7,7 +7,8 @@ print
 
 import time, random
 from PMUK import PMUK
-import Games, Aliens, the_ultimate_quiz, TINO, TRM
+import Games, Aliens, the_ultimate_quiz, TINO, TRM, mystery
+import rockpaperbigsad as r
 
 
 
@@ -31,7 +32,7 @@ def main():
         print("     6.The Riddle master")
         print("     7.Mystery history")
         print("     8.RockPaperSad")
-        print("     9.Change log ")
+        print("     9.Change log")
         print("     10.Update Schedule")
         print("     11.Quit")
         #print("9.Text file editor BETA 10.BlueCalm browser BETA")
@@ -74,16 +75,19 @@ def main():
           print("Exiting...")
           time.sleep(1)
         elif choice == 7:
-          import mystery
+          mystery.beginning_0()
         elif choice == 8:
+          r.rpbs()
+        elif choice == 9:
           print("CHANGE LOG")
           print()
           print("update 1.3.0")
-          print("--New Game: RockPaperSad v1.0.0 BETA ")
+          print("--New Game: RockPaperSad v1.0.0")
           print("--Updated Mystery history to v1.1.0")
-          print("--Updated TINO to v 1.2.0 BETA")
+          print("--Updated TINO to v1.2.0 BETA")
           print("--Updated Changelog to exit when the user clicks Enter/Return")
           print("--Update Guess the Number to v1.1.0")
+          print("--Updated Aliens to v1.0.3")
           print()
           print("update 1.2.0")
           print("--Updated changelog reading time to 40 seconds")
@@ -117,11 +121,11 @@ def main():
           print("--time refinements for app selector")
           print("--enter line re-done")
           print("--Change log created")
-          print("--time refinements for 'Aliens!'")
+          print("--time refinements for Aliens!")
           print()
           print()
           me = input("Press Enter When Done")
-        elif choice == 9:
+        elif choice == 10:
           print("Update schedule")#1.2.0 release by late april
           print()
           print("1.3.0")
@@ -134,7 +138,7 @@ def main():
           print("1.4.0")
           print("Expected release: August 30th")
           time.sleep(8)
-        elif choice == 10:
+        elif choice == 11:
             break
         else:
           print("Non-existent")
