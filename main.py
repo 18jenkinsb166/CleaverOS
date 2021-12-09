@@ -1,9 +1,4 @@
 
-#working area
-print("Launching...")
-print
-()
-
 
 import time, random
 from PMUK import PMUK
@@ -13,7 +8,7 @@ import rockpaperbigsad as r
 
 
     
-print("Welcome to CleaverOS Anna 1.3.0")
+print("Welcome to CleaverOS 1.3.0")
 time.sleep(2)
 print("A collaboration between Yellow Dog and iypion") 
 time.sleep(2)
