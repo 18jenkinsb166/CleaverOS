@@ -15,7 +15,7 @@ import rockpaperbigsad as r
     
 print("Welcome to CleaverOS Anna 1.3.0")
 time.sleep(2)
-print("A collaboration between Yellow Dog and CatInaHat0")
+print("A collaboration between Yellow Dog and iypion") 
 time.sleep(2)
 print("Warning, not all features utilsed here will work on all platforms.")
 
@@ -128,15 +128,11 @@ def main():
         elif choice == 10:
           print("Update schedule")#1.2.0 release by late april
           print()
-          print("1.3.0")
-          print("Expected release: July 12th")
-          print("Released: July 16th")
-          print()
           print("1.3.1")
-          print("Expected release: July 21st")
+          print("Expected release: March")
           print()
           print("1.4.0")
-          print("Expected release: August 30th")
+          print("Expected release: August")
           time.sleep(8)
         elif choice == 11:
             break
