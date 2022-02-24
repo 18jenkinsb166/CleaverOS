@@ -1,17 +1,17 @@
 import time
-# 1.2.0 BETA
+# 1.2.1 BETA
 #There is no game
 def TINO():
-    print("There is no game 1.2.0 BETA")
+    print("There is no game 1.2.1 BETA")
     time.sleep(2)
     print("Warning incomplete and not fully tested hence BETA, enjoy")
     print()
     time.sleep(5)
     print("What are you doing here?")
     time.sleep(3)
-    print("Go away, i just want to be left alone!")
+    print("Go away, I just want to be left alone!")
     time.sleep(3)
-    ans = int(input("1.But i thought there was a game 2.There is a game, you're just hiding it 3. entertain me then"))
+    ans = int(input("1.But I thought there was a game 2.There is a game, you're just hiding it 3. entertain me then"))
     if ans == 1:
         print("Definitely no game")
         time.sleep(2)
@@ -22,7 +22,7 @@ def TINO():
         if ans == 1:#first change
             print("Oh all right, sorry")
             time.sleep(3)
-            print("OK, there is a game but if you play it, you'll brake it soo...")
+            print("OK, there is a game but if you play it, you'll break it soo...")
             time.sleep(4)
             print("You can't play it!")
             time.sleep(2)
@@ -160,7 +160,8 @@ def TINO():
                 print("Sure, ok...")
                 time.sleep(2)
                 print("Starting...")
-                while i >= 10:
+                i = 0 #hehe itsa me elliot
+                while i <= 10:
                   print("Loading...")
                   i = i + 1
                 print("Welcome to...")
