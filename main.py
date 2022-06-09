@@ -130,11 +130,6 @@ def main():
             print()
             me = input("Press Enter When Done")
         elif choice == 10:
-            print("Update schedule")#1.2.0 release by late april
-            print()
-            print("1.3.1")
-            print("Expected release: March")
-            print()
             print("1.4.0")
             print("Expected release: August")
             me = input("Press Enter When Done")
